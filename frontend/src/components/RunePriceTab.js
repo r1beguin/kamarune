@@ -9,7 +9,7 @@ const RunePriceTab = () => {
     ]);
 
     return (
-        <Table>
+        <Table caption="Prix des runes courant">
             <TableHeader>
                 <TableRow>
                     <TableCell>Rune</TableCell>

@@ -10,9 +10,13 @@ const Home = () => {
             <Paragraph>
                 Votre assistant de brisage
             </Paragraph>
-            <Box direction="row" gap="medium">
+            <Box direction="row" gap="medium" align="start" alignContent="end">
 
                 <RunePriceTab />
+
+                <Box>
+                    <Heading level={3}>Item à briser</Heading>
+                </Box>
             </Box>
         </Box>
     );
